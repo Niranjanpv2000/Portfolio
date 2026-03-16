@@ -47,18 +47,18 @@
         <h1 class="sitename">Portfolio</h1>
       </a>
 
+      <div class="header-container d-flex flex-column align-items-start"></div>
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="#hero" class="active">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#resume">Resume</a></li>
-          <li><a href="#portfolio">portfolio</a></li>
-          </li>
+          <li><a href="#PersonlProjects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
-
+     
       <a class="btn-getstarted" href="#about">Get Started</a>
 
     </div>
@@ -77,11 +77,10 @@
             <h2>Hi, I'm Niranjan Puthussery Valsan</h2>
             <p>I'm a <span class="typed" data-typed-items="Quality Assurance Analyst, Junior Data analyst, Office Assistant, Masters Student"></span><span class="typed-cursor" aria-hidden="true"></span></p>
             <div class="social-links">
-              <a href="https://github.com/Niranjanpv2000"><i class="bi bi-github"></i></a>
-              
+              <a href="https://github.com/Niranjanpv2000"><i class="bi bi-github"></i></a>              
               <a href="https://www.instagram.com/__niranjan_pv__"><i class="bi bi-instagram"></i></a>
               <a href="https://www.linkedin.com/in/niranjan-p-v"><i class="bi bi-linkedin"></i></a>
-              <a href="https://wa.me/+917561873638" target="_blank"><i class="bi bi-whatsapp"></i></a>
+              <a href="https://wa.me/+436765863112" target="_blank"><i class="bi bi-whatsapp"></i></a>
             </div>
           </div>
         </div>
@@ -466,30 +465,84 @@
       <!-- Section Title -->
       <section id="PersonlProjects" class="portfolio section"></section>
       <div class="container section-title" data-aos="fade-up">
-        <h2>Portfolio</h2>
-      </div><!-- End Section Title -->  
-      <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+        <h2>Projects</h2>
+      </div><!-- End Section Title --> 
+      
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
           <div class="row">
-            <div class="col-lg-3 filter-sidebar">
-              <div class="filters-wrapper" data-aos="fade-right" data-aos-delay="150">
-                <ul class="portfolio-filters isotope-filters">
-                  <li data-filter="*" class="filter-active">All Projects</li>
-                  <li data-filter=".filter-photography">Photography</li>
-                  <li data-filter=".filter-design">Design</li>
-                  <li data-filter=".filter-automotive">Automotive</li>
-                  <li data-filter=".filter-nature">Nature</li>
-                </ul>
+
+  <!-- FILTERS -->
+  <div class="col-lg-3 filter-sidebar">
+    <div class="filters-wrapper" data-aos="fade-right" data-aos-delay="150">
+      <ul class="portfolio-filters isotope-filters">
+        <li data-filter="*" class="filter-active">All Projects</li>
+        <li data-filter=".filter-photography">Automated Job Data Pipeline</li>
+        <li data-filter=".filter-design">QA Bug Prediction Framework</li>
+
+        <li><a href="https://github.com/Niranjanpv2000/SeleniumNiranjanPortfolioMonitoring" target="_blank">
+          Monitoring Script</a></li>
+        <li><a href="https://github.com/Niranjanpv2000/SeleniumAutomationHybridFramework" target="_blank">
+          Selenium Hybrid Automation Framework</a></li>
+        <li><a href="https://drive.google.com/file/d/1Gkh69yZMwWRqICJipc_umo2g4yKl3TXE/view?usp=drivesdk" target="_blank">
+          AUTO GO - Bachelors Project</a></li>
+
+   <!-- <li data-filter=".filter-automotive">Monitoring Script</li>
+        <li data-filter=".filter-nature">Selenium Hybrid Automation Framework</li>
+        <li data-filter=".filter-nature2">AUTO GO - Bachelors Project</li>  -->
+
+      </ul>
+    </div>
+  </div>
+
+  <!-- PORTFOLIO ITEMS -->
+  <div class="col-lg-9">
+    <div class="row gy-4 portfolio-container isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+      <!-- Item 1 -->
+      <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-photography">
+        <div class="portfolio-wrap">
+          <img src="Images/powerbi page1.png" class="img-fluid" alt="Portfolio Image">
+          <div class="portfolio-info">
+            <div class="content">
+              <span class="category">Job analysis and Skill prediction</span>
+              <div class="portfolio-links">
+                <a href="Images/powerbi page1.png" class="glightbox" title="Capturing Moments"><i class="bi bi-plus-lg"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
 
-              <div class="col-lg-9">
-              <div class="row gy-4 portfolio-container isotope-container" data-aos="fade-up" data-aos-delay="200">
-        
+      <!-- Item 2 -->
+      <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-design">
+        <div class="portfolio-wrap">
+          <img src="Images/modulewisepredictedbug.png" class="img-fluid" alt="Portfolio Image">
+          <div class="portfolio-info">
+            <div class="content">
+              <span class="category">QA Bug Prediction Framework</span>
+              <div class="portfolio-links">
+                <a href="Images/modulewisepredictedbug.png" class="glightbox" title="Capturing Moments"><i class="bi bi-plus-lg"></i></a>
+                <a href="portfolio-detailsone.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-      
+      <!-- Add other items here with correct filter classes -->
+
+    </div>
+  </div>
+
+</div>
+
 
     </section><!-- /Portfolio Section -->
+
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">
@@ -540,6 +593,7 @@
 
           <div class="col-lg-8">
             <form action="forms/contact.php" method="post" class="php-email-form">
+              
               <div class="row gy-4">
 
                 <div class="col-md-6">
@@ -584,9 +638,11 @@
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">Lookin for Part time jobs</span>
+            <span class="sitename">Open for Part time jobs</span>
           </a>
-          <p>Masters Data Sience Student looking for part time jobs. Ready to learn new skills rquired for work. Open to all jobs. </p>
+          <p>Motivated to develop and enhance skills necessary for the position.</p>
+          <p>I would be happy to provide any additional information if needed.</p>
+          <p>Thankyou for visiting my portfolio.</p>
           <div class="social-links d-flex mt-4">
             <a href="https://github.com/Niranjanpv2000"><i class="bi bi-github"></i></a>
               
